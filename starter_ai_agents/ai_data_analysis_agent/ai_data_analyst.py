@@ -52,7 +52,7 @@ st.title("📊 Data Analyst Agent")
 # Sidebar for API keys
 with st.sidebar:
     st.header("API Keys")
-    openai_key = st.text_input("Enter your OpenAI API key:", type="password")
+    openai_key = st.text_input":", type="password")
     if openai_key:
         st.session_state.openai_key = openai_key
         st.success("API key saved!")
